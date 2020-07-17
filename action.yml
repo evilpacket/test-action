@@ -1,5 +1,5 @@
-name: 'Wait'
-description: 'Wait a designated number of milliseconds'
+name: 'test'
+description: 'Does a thing'
 inputs:
   milliseconds:  # id of input
     description: 'number of milliseconds to wait'
@@ -10,4 +10,4 @@ outputs:
     description: 'The message to output'
 runs:
   using: 'node12'
-  main: 'dist/index.js'
+  main: 'index.js'
